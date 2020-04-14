@@ -15,7 +15,7 @@
 	<description>REST API tutorial with Spring</description>
 
 	<properties>
-		<java.version>13</java.version>
+		<java.version>8</java.version>
 	</properties>
 
 	<dependencies>
@@ -84,6 +84,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<finalName>Intern-REST-API</finalName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -1,0 +1,11 @@
+instances: 2
+memory: 512M
+disk_quota: 512M
+
+applications:
+- name: springboot-intern
+  random-route: true
+  path: target/Intern-REST-API.jar
+  services:
+    - intern-mysql
+
